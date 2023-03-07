@@ -1,7 +1,5 @@
 # QuantiFood
 
-![QuantiFood](images/QuantiFood.jpeg)
-
 ### What is QuantiFood?
 
 QuantiFood is an early-stage, work in progress app I am working on 
@@ -32,4 +30,7 @@ as well as the conversion factors between different units of measurement.
 * [ ] Be able to track food intake over time.
 * [ ] Specify daily/weekly/monthly goals for intake.
 * [ ] Numerically handle uncertainty in the data.
+
+![QuantiFood](images/QuantiFood.jpeg)
+
 
