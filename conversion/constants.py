@@ -1,0 +1,8 @@
+PRODUCES = '=>'
+CONVERTS = '='
+QUIT = 'q'
+HELP = 'h'
+QUERY = '?'
+KEYWORD_OF = 'of'
+KEYWORD_IN = 'in'
+COMMENT = '#'

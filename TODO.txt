@@ -1,0 +1,24 @@
+TODO
+    * do not allow amounts to be zero, as this messes up figuring out reverse amounts 1/n
+    * figure out a more efficient algorithm for constraint propagation
+    * If we have MULTIPLE measurements of a thing, use the MOST APPROPRIATE ONE (closest to 1.0)
+    * handle plurals
+        calory <-> calories
+        apple <-> apples
+        glass <-> glasses
+    * adding rules should overwrite existing things, not just add to them (but also warning to user)
+    * give warnings if user may have forgotten the 'of' keyword
+    * give warnings if item not in vocabulary on query/infer
+    * can we have multi-word units of measure, e.g. "fluid ounces"?
+    * detect cycles and warn user
+    * detect repetitive entries
+    * add entries to the "database" (currently data.txt)
+    * Be able to make aliases (e.g. "vitamin c is a vitamin")
+        > vitamins => vitamin c, vitamin k
+        > vitamins in 1 lbs of steak
+            (no matches)
+        > vitamin c in 1 lbs of steak
+            (no matches)
+        > vitamin k in 1 lbs of steak
+            vitamin k: 9.07 mcg
+
