@@ -30,7 +30,4 @@ as well as the conversion factors between different units of measurement.
 * [ ] Be able to track food intake over time.
 * [ ] Specify daily/weekly/monthly goals for intake.
 * [ ] Numerically handle uncertainty in the data.
-
-![QuantiFood](images/QuantiFood.jpeg)
-
-
+* [ ] Consider LLM integrations?
